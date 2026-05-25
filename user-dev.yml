@@ -1,11 +1,11 @@
 server:
-  port: 9001
+  port: 9002
 
 spring:
   application:
     name: myshop-user
   datasource:
-    url: jdbc:mysql://192.168.225.129:3306/springcloud?characterEncoding=UTF8&useSSL=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://192.168.225.129:3307/springcloud?characterEncoding=UTF8&useSSL=false&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: 123456
